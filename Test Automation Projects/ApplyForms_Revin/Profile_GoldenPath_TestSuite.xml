@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+
+      <groups>
+          <run>
+              <include name = "Golden Path Test Case for Profile" />
+                <!--              Profile Test Case
+                                  1. Log into Application
+                                  2. Open the Profile page
+                                  3. Create a <<Profile Item>> record
+                                  4. Verify that the record is saved
+                                  5. Update the <<Profile Item>> record
+                                  6. Verify that the changes are saved
+                                  7. Delete the record (if possible)
+                                  8. Log out of Application
+                 -->
+          </run>
+      </groups>
+
+      <!--        Classes or Pages in Profile-->
+      <classes>
+
+          <!--        1.Profile - Academic Information-->
+          <class name="tests.profile.AcademicTests"/>
+
+          <!--        2.Profile - Appointments-->
+          <class name="tests.profile.AppointmentTests"/>
+
+          <!--        3.Profile - Career Disruptions-->
+          <class name="tests.profile.CareerDisruptionsTests"/>
+
+          <!--        4.Profile - Commercial and Product Outcomes-->
+          <class name="tests.profile.CommericalProductOutcomeTests"/>
+
+          <!--        5.Profile - Community Engagements-->
+          <class name="tests.profile.CommunityEngagementTests"/>
+
+          <!--        6.Profile - Conference Participation-->
+          <class name="tests.profile.ConferenceParticipationTest"/>
+
+          <!--        7.Profile - Contributions to NHMRC-->
+          <class name="tests.profile.ContributionsTests"/>
+
+          <!--        8.Profile - Employment History-->
+          <class name="tests.profile.EmploymentHistoryTests"/>
+
+          <!--        9.Profile - Journal Reviews-->
+          <class name="tests.profile.JournalReviewsTest"/>
+
+          <!--        10.Profile - Other Funding-->
+          <class name="tests.profile.OtherFundingTests"/>
+
+          <!--        11.Profile - Patents-->
+          <class name="tests.profile.PatentsTest"/>
+
+          <!--        12.Profile - Peer Review Information-->
+          <class name="tests.profile.PeerReviewInformationTests"/>
+
+          <!--        13.Profile - Personal Information-->
+          <class name="tests.profile.PersonalInformationTest"/>
+
+          <!--        14.Profile - Professional Memberships-->
+          <class name="tests.profile.ProfessionalMembershipTests"/>
+
+          <!--        15.Profile - Publications-->
+          <class name="tests.profile.PublicationTests"/>
+
+          <!--        16.Profile - Qualifications/Awards/Prizes-->
+          <class name="tests.profile.QualificationTests"/>
+
+          <!--        17.Profile - Relative to Opportunity-->
+          <class name="tests.profile.RelativeOpportunityTests"/>
+
+          <!--        18.Profile - Research Datasets-->
+          <class name="tests.profile.ResearchDatasetsTests"/>
+
+          <!--        19.Profile - Research Tools-->
+          <class name="tests.profile.ResearchToolsTest"/>
+
+          <!--        20.Profile - Supervision and Mentoring-->
+          <class name="tests.profile.SuperVisionTests"/>
+
+          <!--        21.Profile - Translation into Policy/Practice-->
+          <class name="tests.profile.TranslationsPolicyTests"/>
+
+          <!--        22.Profile - Unavailability Calendar-->
+          <class name="tests.profile.UnavailabilityCalendarTests"/>
+
+          <!--        23.Profile - Update Profile Page-->
+          <class name="tests.profile.UpdateProfilePageTests"/>
+
+          <!--        24.Profile - Workload-->
+          <class name="tests.profile.WorkloadPageTests"/>
+
+      </classes>
+
+  </test>
+</suite>

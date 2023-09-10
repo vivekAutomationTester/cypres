@@ -1,0 +1,81 @@
+{
+  "ApiKey": "",
+  "goName": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "GO Name"
+  },
+  "scheme": {
+    "tableName": "Test_CONFIG_RQ",
+    "columnName": "Scheme"
+  },
+  "visibility": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "Public/Private"
+  },
+
+  "intellidoxForm": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "Intellidox Form (IXPKG)"
+  },
+  "grantDuration": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "Grant Duration"
+  },
+  "psp": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "PSP"
+  },
+  "applicationReports": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "Application Reports"
+  },
+  "profileReportContents": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "Profile Report Contents"
+  },
+  "profileNumberOfYears": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "Profile-Number of Years"
+  },
+  "goTracker": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "GO Tracker"
+  },
+  "applyOpen": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "APPLY OPEN"
+  },
+  "mdRequired": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "MD Required"
+  },
+  "mdCloseDate": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "MD CLOSE Date"
+  },
+  "applyClose": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "APPLY CLOSE"
+  },
+  "assessStart": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "Assess START"
+  },
+  "assessClose": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "ASSESS CLOSE"
+  },
+  "panelReview": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "PANEL REVIEW"
+  },
+  "grantStart": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "Grant Start"
+  },
+  "grantEnd": {
+    "tableName": "CONFIG_RQ",
+    "columnName": "Grant End"
+  }
+
+}
